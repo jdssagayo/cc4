@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class Baguio {
+
+    public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);
+
+
+        System.out.println("Enter your Username");
+        String name = myObj.nextLine();
+        System.out.println("This is "+ name +" Algorithm");
+
+                // Step 1
+                System.out.println("Wake up ");
+                System.out.print("Enter the current temperature in Celsius: ");
+                double temperature = myObj.nextDouble();
+
+                // Check if the temperature is between 15 and 23 degrees
+                if (temperature <= 23 ) {
+                    System.out.println("It's cold, I will wear a jacket.");
+                } else {
+                    System.out.println("It's not too cold, I might not need to wear jacket.");
+                }
+
+                // Step 2
+                System.out.println("Take a Bath");
+
+                System.out.println("Brush my Teeth");
+                // Step 3
+                System.out.println("Change clothes");
+                // Step4
+                System.out.println("Prepare things for school");
+                // Step 5
+                System.out.println("Go to Jeep Terminal");
+                // Step 6
+                System.out.println("Enter UC");
+                // Step 7
+                System.out.println("After First Period, Eat ");
+                // Step 8
+                System.out.println("Go Back to School");
+                // Step 9
+                System.out.println("After Break Hangout in Sm");
+                // Step 10
+
+
+            }
+        }
+
+
+
+
+
+
+
+
+
+
